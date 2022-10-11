@@ -6,7 +6,7 @@ public class Assignment1 {
 		// TODO Auto-generated method stub
 		
 		//1.Write a Java program to print Hello; n screen and then print your name on a separate line
-		System.out.println("Hello\nPratheepa");
+		System.out.println("Hello\nPrathi");
 		
 		//2.Write a Java program to print the sum of two numbers
 		System.out.println("-----Write a Java program to print the sum of two numbers--------");
@@ -48,12 +48,10 @@ public class Assignment1 {
 		Scanner a1 =new Scanner(System.in);
 		System.out.print("Enter the value of m:");
 		m=a1.nextInt();
-		Scanner b1=new Scanner(System.in);
 		System.out.print("Enter the value of n:");
-		n=b1.nextInt();
-		Scanner c1=new Scanner(System.in);
+		n=a1.nextInt();
 		System.out.print("Enter the value of p:");
-		p=c1.nextInt();
+		p=a1.nextInt();
 		if((m>=n)&&(m>=p))
 		{
 			System.out.println(m + " is the greatest number");
